@@ -1,2 +1,3 @@
-# projects_metamask-clone
- Clone of the metamask ui using JavaScript, HTML and CSS
+# MegaMask
+
+A clone of the MetaMask ui using JavaScript, HTML and CSS
