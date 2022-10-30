@@ -35,6 +35,15 @@ a {
   text-decoration: none;
 }
 
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus,
+#add-network-btn,
+#dismiss-btn,
+.btn:hover {
+  cursor: pointer;
+}
+
 .container-main {
   display: flex;
   flex-direction: column;
@@ -58,8 +67,8 @@ a {
 }
 
 .header-logo {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin-left: 15px;
 }
 
@@ -70,8 +79,8 @@ a {
   background-color: var(--header-background);
   display: flex;
   justify-content: flex-end;
-  margin-left: 60px;
-  border: 1px solid white;
+  margin-left: 110px;
+  border: 1px solid grey;
   border-radius: 30px;
   color: var(--text-color);
 }
@@ -96,22 +105,14 @@ a {
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   outline: none;
   color: var(--text-color);
-  padding: 14px 16px;
+  padding: 12px 15px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-}
-
-.navbar a:hover,
-.dropdown:hover .dropbtn,
-.dropbtn:focus,
-#add-network-btn,
-#dismiss-btn {
-  cursor: pointer;
 }
 
 .dropdown-content {
@@ -169,13 +170,13 @@ a {
   background-color: var(--main-background);
 }
 
-#show-test #dismiss-btn {
+#dismiss-btn {
   background-color: var(--main-background);
   border: 1px solid var(--text-color);
   border-radius: 30px;
   color: var(--text-color);
   padding: 5px;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-right: 10px;
   font-size: 14px;
 }
@@ -237,6 +238,7 @@ a {
 .main-subtitle {
   font-size: 16px;
   font-weight: 300;
+  margin-top: 6px;
 }
 
 /* Sign in Form */
@@ -253,6 +255,7 @@ a {
   border: none;
   border-bottom: 1px solid var(--text-color);
   background-color: var(--main-background);
+  line-height: 2;
   width: 260px;
 }
 
@@ -282,14 +285,12 @@ a {
 
 .footer {
   color: var(--text-color);
-  font-size: 12px;
-  font-weight: bold;
-  margin-top: 20px;
+  font-size: 11px;
+  margin-top: 75px;
 }
 
 .support-link {
   color: var(--accent-blue);
   text-decoration: none;
   font-size: 12px;
-  font-weight: normal;
 }
