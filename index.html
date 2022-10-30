@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MegaMask</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/cc78883918.js" crossorigin="anonymous"></script>
+  </head>
+  <iv>
+    <body>
+      <div class="container-main">
+      <!-- Header -->
+      <header class="header">
+        <div class="container-logo">
+        <img class="header-logo" src="logo.png">
+        </div>
+        <!-- nav -->
+      <div class="nav-bar-container">
+        <!-- dropdown -->
+        <nav class="navbar">
+          <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()"><i class="fa-solid fa-circle network-dot green"></i>Ethereum Mainnet
+            <i class="fa-solid fa-angle-down nav-angle"></i>
+          </button>
+          <!-- dropdown content -->
+          <div class="dropdown-content" id="myDropdown">
+            <div class="dropdown-heading-container">
+            <h2 class="dropdown-heading">Networks</h2>
+          </div>
+            <div class="show-test-networks-container">
+                <a href="" id="show-test-networks">Show/hide test networks</a>
+                <a id="dismiss-btn">Dismiss</a>
+            </div>
+            <div class="networks-section">
+            <a href="#"><i class="fa-solid fa-circle network-dot green"></i>Ethereum</a>
+            <a href="#"><i class="fa-solid fa-circle network-dot blue"></i>Polygon</a>
+            <a href="#"><i class="fa-solid fa-circle network-dot purple"></i>Goerli</a>
+            <button id="add-network-btn">Add network</button>
+          </div>
+          </div>
+          </div> 
+        </>
+        <!--  -->
+
+      </div>
+      </header>
+      <!-- Main Content -->
+      <main class="main-content-container">
+        <img class="main-logo" src="logo.png">
+        <div class="main-text-container">
+        <h1 class="main-heading">Welcome back!</h1>
+        <h2 class="main-subtitle">The decentralized web awaits</h2>
+      </div>
+        <form class="signin-form" action="">
+          <input type="password" id="password" placeholder="Password" />
+          <button class="btn btn-unlock">Unlock</button>
+          <a href="" class="forgot-password">Forgot password?</a>
+        </form>
+      </main>
+      <footer class="footer">
+        Need help? Contact
+        <span
+          ><a class="support-link" href="" target="_blank"
+            >MetaMask support</a
+          ></span
+        >
+      </footer>
+    </div>
+  </body>
+  <script src="js/navbar.js"></script>
+</html>
