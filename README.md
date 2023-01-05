@@ -46,13 +46,9 @@ A UI clone of the popular Web3 Wallet, MetaMask using JavaScript, HTML, and CSS
 
 [![Project Screen Shot][project-screenshot]][project-url] [![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url]
 
-<!-- TODO: ADD LONG PROJECT DESCRIPTION -->
-
-<!-- LONG_PROJECT_DESCRIPTION -->
+MegaMask is a user interface (UI) clone of the popular Web3 Wallet, MetaMask. It was built using JavaScript, HTML, and CSS. The project aims to replicate the look and feel of the original MetaMask app, including its features and functionality. This project was created as a way to familiarize myself with the design and functionality of Web3 Wallets and to practice my front-end development skills.
 
 _I'd love to hear any feedback or just thoughts. Feel free to reach out at my contact info below. Cheers!_
-
-<!-- TODO: UNCOMMENT APPLICABLE TECH -->
 
 ### Stack
 
